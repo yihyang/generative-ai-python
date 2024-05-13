@@ -59,14 +59,6 @@ _EMBEDDING_TASK_TYPE: dict[EmbeddingTaskTypeOptions, EmbeddingTaskType] = {
     EmbeddingTaskType.CLUSTERING: EmbeddingTaskType.CLUSTERING,
     5: EmbeddingTaskType.CLUSTERING,
     "clustering": EmbeddingTaskType.CLUSTERING,
-    6: EmbeddingTaskType.QUESTION_ANSWERING,
-    "question_answering": EmbeddingTaskType.QUESTION_ANSWERING,
-    "qa": EmbeddingTaskType.QUESTION_ANSWERING,
-    EmbeddingTaskType.QUESTION_ANSWERING: EmbeddingTaskType.QUESTION_ANSWERING,
-    7: EmbeddingTaskType.FACT_VERIFICATION,
-    "fact_verification": EmbeddingTaskType.FACT_VERIFICATION,
-    "verification": EmbeddingTaskType.FACT_VERIFICATION,
-    EmbeddingTaskType.FACT_VERIFICATION: EmbeddingTaskType.FACT_VERIFICATION,
 }
 
 
